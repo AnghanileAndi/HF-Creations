@@ -1,0 +1,20 @@
+{
+  "name": "hf-creations-app",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite-ssg build",
+    "preview": "vite preview",
+    "generate": "vite-ssg build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite-ssg": "^0.24.0"
+  }
+}
